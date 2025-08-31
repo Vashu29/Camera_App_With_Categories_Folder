@@ -8,22 +8,40 @@ Can be used to make the labels of different class to collect similar type of dat
 
 
 ***** PROJECT STRUCTURES ******
-Camera_App/ \n
- ├── app/src/main/java/com/example/camera_app/  \n
- │   ├── MainActivity.kt         # Entry point (session creation & navigation)  \n
- │   ├── CaptureActivity.kt      # Handles image capturing   \n
+
+
+Camera_App/ 
+
+ ├── app/src/main/java/com/example/camera_app/  
+
+ 
+ │   ├── MainActivity.kt         # Entry point (session creation & navigation)  
+
+ 
+ │   ├── CaptureActivity.kt      # Handles image capturing   
+
+ 
  │   ├── ViewImagesActivity.kt   # Displays images from a selected session
+
+ 
  │   ├── DatabaseHelper.kt       # SQLite database for session metadata
+
  │
+ 
  ├── app/src/main/res/layout/    # XML layout files
+ 
  │
+ 
  ├── app/build.gradle            # App-level Gradle config
+ 
  ├── build.gradle                # Project-level Gradle config
+ 
  └── AndroidManifest.xml         # App manifest
 
 
 ***** DEPENDENCIES ******
  dependencies {
+ 
     implementation "androidx.appcompat:appcompat:1.6.1"
     implementation "androidx.core:core-ktx:1.12.0"
     implementation "androidx.constraintlayout:constraintlayout:2.1.4"
