@@ -8,10 +8,10 @@ Can be used to make the labels of different class to collect similar type of dat
 
 
 ***** PROJECT STRUCTURES ******
-Camera_App/
- ├── app/src/main/java/com/example/camera_app/
- │   ├── MainActivity.kt         # Entry point (session creation & navigation)
- │   ├── CaptureActivity.kt      # Handles image capturing
+Camera_App/ \n
+ ├── app/src/main/java/com/example/camera_app/  \n
+ │   ├── MainActivity.kt         # Entry point (session creation & navigation)  \n
+ │   ├── CaptureActivity.kt      # Handles image capturing   \n
  │   ├── ViewImagesActivity.kt   # Displays images from a selected session
  │   ├── DatabaseHelper.kt       # SQLite database for session metadata
  │
